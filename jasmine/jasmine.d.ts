@@ -271,6 +271,7 @@ declare module jasmine {
         (expected: any): boolean;
         toEqual(expected: any): boolean;
         toMatch(expected: any): boolean;
+        toBe(expected: any): boolean;
         toBeDefined(): boolean;
         toBeUndefined(): boolean;
         toBeNull(): boolean;
